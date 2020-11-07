@@ -29,7 +29,7 @@
             });
 
             objectStrore.createIndex('nombre', 'nombre', {unique: false});
-            objectStrore.createIndex('email', 'email', {unique: false});
+            objectStrore.createIndex('email', 'email', {unique: true});
             objectStrore.createIndex('telefono', 'telefono', {unique: false});
             objectStrore.createIndex('empresa', 'empresa', {unique: false});
             objectStrore.createIndex('id', 'id', {unique: true});
